@@ -10,6 +10,7 @@
 
 return [
   '*' => [
+    'siteUrl' => 'https://locker.deadbird.dev',
     'defaultWeekStartDay' => 1,
     'omitScriptNameInUrls' => true,
     'cpTrigger' => 'manage',
@@ -19,6 +20,7 @@ return [
 
   'dev' => [
     'devMode' => true,
+    'siteUrl' => getenv('SITE_URL'),
   ],
 
   'staging' => [
