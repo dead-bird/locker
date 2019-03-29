@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf97f053877904849e716a88cbd5970d",
+    "content-hash": "4f5ca5ef20f71d00946a0a9f065d0193",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -1626,6 +1626,56 @@
             "time": "2015-10-13T18:44:15+00:00"
         },
         {
+            "name": "supercool/buttonbox",
+            "version": "2.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/supercool/buttonbox/zipball/628764ac93b31cb84021b192f296b626442e9e90",
+                "reference": "628764ac93b31cb84021b192f296b626442e9e90",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0-RC1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Button Box",
+                "handle": "buttonbox",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/supercool/buttonbox/master/CHANGELOG.md",
+                "class": "supercool\\buttonbox\\ButtonBox"
+            },
+            "autoload": {
+                "psr-4": {
+                    "supercool\\buttonbox\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Supercool",
+                    "homepage": "http://supercooldesign.co.uk"
+                }
+            ],
+            "description": "A collection of utility field types for Craft",
+            "keywords": [
+                "buttonbox",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms"
+            ],
+            "support": {
+                "docs": "https://github.com/supercool/buttonbox/blob/master/README.md",
+                "issues": "https://github.com/supercool/buttonbox/issues"
+            },
+            "time": "2018-07-13T10:40:53+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v6.2.0",
             "dist": {
@@ -2349,6 +2399,58 @@
                 "templating"
             ],
             "time": "2019-03-23T14:28:58+00:00"
+        },
+        {
+            "name": "verbb/super-table",
+            "version": "2.1.16",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/super-table/zipball/60947a5f4f2ef9f2972dee95ff460897e743deaf",
+                "reference": "60947a5f4f2ef9f2972dee95ff460897e743deaf",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.1.13"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Super Table",
+                "handle": "super-table",
+                "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+                "documentationUrl": "https://github.com/verbb/super-table",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/super-table/craft-3/CHANGELOG.md",
+                "class": "verbb\\supertable\\SuperTable"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\supertable\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "super table"
+            ],
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/super-table/issues?state=open",
+                "source": "https://github.com/verbb/super-table",
+                "docs": "https://github.com/verbb/super-table",
+                "rss": "https://github.com/verbb/super-table/commits/v2.atom"
+            },
+            "time": "2019-03-09T04:08:51+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
