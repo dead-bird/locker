@@ -3,6 +3,7 @@
     "craftcms/cms": "^3.0.0",
     "craftcms/element-api": "2.5.4",
     "craftcms/redactor": "2.3.2",
+    "crystal-uk/ratchet": "^3.4",
     "lukeyouell/craft-sidebarthemes": "1.0.5",
     "supercool/buttonbox": "2.0.2",
     "verbb/super-table": "2.1.16",
