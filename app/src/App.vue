@@ -34,7 +34,7 @@ a.button {
   display: inline-block;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #212529;
+  border: 2px solid #212529;
   line-height: 1;
   margin-bottom: 15px;
   cursor: pointer;
